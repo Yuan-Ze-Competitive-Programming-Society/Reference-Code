@@ -1,5 +1,14 @@
 # Reference Code
 
+## feat: Upload 【AtCoder】Beginner Contest 274 - A. Batting Average
+
+**Solved**
+
+。Input and Output - O(1)
+
+* Solution
+    * Use fixed to control the format and setprecision to display B divided by A up to three decimal places.
+
 ## feat: Upload 【AtCoder】Beginner Contest 182 - A. twiblr
 
 **Solved**
@@ -7,7 +16,7 @@
 。Input and Output - O(1)
 
 * Solution
-    * Because  you can follow at most $2 \times A ($ the number of users following you $) + 100$ users, so the out put will be $2 \times A + 100 - B$ 
+    * Because you can follow at most $2 \times A ($ the number of users following you $) + 100$ users, so the out put will be $2 \times A + 100 - B$ 
 
 ## feat: Upload setup.cpp
 
