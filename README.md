@@ -1,5 +1,27 @@
 # Reference Code
 
+## feat: Upload 【CSES】1095. Exponentiation
+
+**Solved**
+
+。Input and Output - O(NlogB)
+
+* Time Complexity Analysis
+    * Because there are `N` queries, this takes O(N)
+    * In each query, we use O(logB), where the B stands for the power of the answer, solution to calculate the exponentiation
+    * Overall, it takes O(NlogB) to solve this problem
+* Solution
+    * To solve CSES 1095: Exponentiation, we need to use two main concepts:
+        `Fastpow with bitwise operations`
+        1. We apply exponentiation by squaring
+            * If the lowest bit of the exponent is `0`, we square the base and halve the exponent
+            * Otherwise, multiply the current result by the base and shift the exponent by one
+            * We continue this process using bitwise operations `n & 1` to check if n is odd, and `n >>= 1` to halve n
+        2. Modulo Operation to Prevent Integer Overflow
+            * We take the modulo at every step, including the initial  multiplication, to prevent integer overflow
+            * Since we are given a large exponent, directly computing $a^b$ can be infeasible, so applying `(base * base) % mod` ensures that values stay manageable
+            * This approach ensures an efficient computation of $a^b$ in logarithmic time
+
 ## feat: Upload 【AtCoder】Beginner Contest 182 - A. twiblr
 
 **Solved**
