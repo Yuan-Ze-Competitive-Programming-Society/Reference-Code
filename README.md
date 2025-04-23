@@ -1,5 +1,23 @@
 # Reference Code
 
+## feat: Upload 【Kattis】Kattis Jack-O'-Lantern Juxtaposition
+
+**Soloved**
+
+。Input and Output - O(1)
+
+* Solution
+    * Directly write the product of the three numbers a * b * c in the output line.
+
+## feat: Upload 【AtCoder】Beginner Contest 202 - A. Three Dice
+
+**Solved**
+
+。Input and Output - O(1)
+
+* Solution
+    * Directly write 21 minus the sum of the three numbers 21 - ( a + b + c ) in the output line.
+
 ## feat: Upload 【AtCoder】Beginner Contest 274 - A. Batting Average
 
 **Solved**
