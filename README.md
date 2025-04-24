@@ -1,5 +1,16 @@
 # Reference Code
 
+## feat: Upload 【CSES】1620. Factory Machines
+
+。Input and Output - O(NlogT)
+
+* Time Complexity Analysis
+    * The search range is from 0 to max_time (1e18 in the worst case). Therefore, binary search will run at most log₂(1e18) times.
+    * Each time, we need to calculate the total production.
+    * O(N * logN)
+* Solution
+    * Use binary search for answer to find the ans(x). The number of products each machine can produce in x seconds is x / k[i]. When the condition is satisfied (sum >= t), search to the left, since there might be a smaller valid answer (r = mid - 1).
+
 ## feat: Upload 【Kattis】Kattis Jack-O'-Lantern Juxtaposition
 
 **Soloved**
